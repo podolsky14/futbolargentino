@@ -11,6 +11,7 @@ export default function Posiciones(){
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
+        gap: "30px"
       }
 
       const center = {

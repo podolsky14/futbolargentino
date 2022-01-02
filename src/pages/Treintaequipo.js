@@ -1,4 +1,4 @@
-import mil930 from "../assets/img/mil930.png";
+import mil930 from "../assets/img/mil930.png"
 import mil931 from "../assets/img/mil931.jpg";
 import mil932 from "../assets/img/mil932.png";
 import mil933 from "../assets/img/mil933.png";
@@ -8,6 +8,7 @@ import mil936 from "../assets/img/mil936.png";
 import mil937 from "../assets/img/mil937.png";
 import mil938 from "../assets/img/mil938.png";
 import mil939 from "../assets/img/mil939.png";
+import "../index.css"
 import React from 'react'
 
 export default function Treintaequipo() {

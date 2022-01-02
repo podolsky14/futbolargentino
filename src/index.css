@@ -104,7 +104,9 @@ overflow-x:hidden;
 
 
 .bienvenido{
-  height: 600px;
+  display: flex;
+  justify-content: center;
+  height: 700px;
   display: flex;
   justify-content: center;
   padding: 100px;

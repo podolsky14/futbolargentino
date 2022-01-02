@@ -1,42 +1,40 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import Layout from "./pages/Layout";
-import Home from "./pages/Home";
-import Arqueros from "./pages/Arqueros";
-import Centrales from "./pages/Centrales";
-import Laterales from "./pages/Laterales";
-import MedDef from "./pages/MedDef";
-import MedOf from "./pages/MedOf";
-import Extremos from "./pages/Extremos";
-import Forwards from "./pages/Forwards";
-import Centrodelanteros from "./pages/Centrodelanteros";
-import Posiciones from "./pages/Posiciones";
-import ListaGral from "./pages/ListaGral";
-import Jugadoroftheyear from "./pages/Jugadoroftheyear";
-import Jugadores from "./pages/Jugadores";
-import Dts from "./pages/Dts";
-import Equipos from "./pages/Equipos";
-import Dtoftheyear from "./pages/Dtoftheyear";
-import Listagraldt from "./pages/Listagraldt";
-import Clubes from "./pages/Clubes";
-import Listagralclubes from "./pages/Listagralclubes";
-import Cluboftheyear from "./pages/Cluboftheyear";
-import Treintaequipo from "./pages/Treintaequipo";
-import Cuarentaequipo from "./pages/Cuarentaequipo";
-import Cincuentaequipo from "./pages/Cincuentaequipo";
-import Sesentaequipo from "./pages/Sesentaequipo";
-import Setentaequipo from "./pages/Setentaequipo";
-import Ochentaequipo from "./pages/Ochentaequipo";
-import Noventaequipo from "./pages/Noventaequipo";
-import Ceroequipo from "./pages/Ceroequipo";
-import Diezequipo from "./pages/Diezequipo";
-import Veinteequipo from "./pages/Veinteequipo";
-import Contacto from "./pages/Contacto";
-import React from 'react'
+import Layout from "../pages/Layout";
+import Home from "../pages/Home";
+import Arqueros from "../pages/Arqueros";
+import Centrales from "../pages/Centrales";
+import Laterales from "../pages/Laterales";
+import MedDef from "../pages/MedDef";
+import MedOf from "../pages/MedOf";
+import Extremos from "../pages/Extremos";
+import Forwards from "../pages/Forwards";
+import Centrodelanteros from "../pages/Centrodelanteros";
+import Posiciones from "../pages/Posiciones";
+import ListaGral from "../pages/ListaGral";
+import Jugadoroftheyear from "../pages/Jugadoroftheyear";
+import Jugadores from "../pages/Jugadores";
+import Dts from "../pages/Dts";
+import Equipos from "../pages/Equipos";
+import Dtoftheyear from "../pages/Dtoftheyear";
+import Listagraldt from "../pages/Listagraldt";
+import Clubes from "../pages/Clubes";
+import Listagralclubes from "../pages/Listagralclubes";
+import Cluboftheyear from "../pages/Cluboftheyear";
+import Treintaequipo from "../pages/Treintaequipo";
+import Cuarentaequipo from "../pages/Cuarentaequipo";
+import Cincuentaequipo from "../pages/Cincuentaequipo";
+import Sesentaequipo from "../pages/Sesentaequipo";
+import Setentaequipo from "../pages/Setentaequipo";
+import Ochentaequipo from "../pages/Ochentaequipo";
+import Noventaequipo from "../pages/Noventaequipo";
+import Ceroequipo from "../pages/Ceroequipo";
+import Diezequipo from "../pages/Diezequipo";
+import Veinteequipo from "../pages/Veinteequipo";
+import Contacto from "../pages/Contacto";
 
 export default function Rutas() {
     return (
         <div>
-    <h1>RUTAS</h1>
     <BrowserRouter>
   <Routes>
      

@@ -12,6 +12,7 @@ const [visible, setvisible] = useState(false)
 const [borrarform, setborrarform] = useState(false)
 const divStyle = {
     padding: "20px",
+    height: "700px"
   };
 
   const enviar = {
@@ -38,7 +39,7 @@ setborrarform(true)
     return (
        <div  style={divStyle}>
  <h1 className="contacto">CONTACTO</h1><div></div><br/>
- {visible &&<h1 className='bienvenido'>Mensaje enviado, en breve nos comunicaremos con usted.</h1>}
+ {visible &&<h1 className='bienvenido'>Mensaje enviado!</h1>}
  {!borrarform &&<form className="formularioContacto" onSubmit={handleSubmit}>
 <strong>Nombre y apellido</strong>   
 <input type="text" id="text" name="text" onChange={handleChange} required  value={form.text }/><br/>

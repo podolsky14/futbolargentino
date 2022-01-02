@@ -1,3 +1,4 @@
+import "./index.css"
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
@@ -31,8 +32,6 @@ import Ceroequipo from "./pages/Ceroequipo";
 import Diezequipo from "./pages/Diezequipo";
 import Veinteequipo from "./pages/Veinteequipo";
 import Contacto from "./pages/Contacto";
-import "./index.css"
-
 
 function App() {
   return (
@@ -41,7 +40,8 @@ function App() {
   
  
  <main className="d-flex-column" >
-  <BrowserRouter>
+ 
+ <BrowserRouter>
   <Routes>
      
       <Route path="/" element={<Layout/>}>  
