@@ -27,19 +27,19 @@ export default function Listagralclubes (){
 <strong>47:</strong>   EL PORVENIR<br/>
 <strong>46:</strong>   LOS ANDES<br/>
 <strong>45:</strong>   DEPORTIVO MANDIYU <br/>
-<strong>44:</strong>   TALLERES DE REMEDIOS DE ESCALADA<br/>
-<strong>43:</strong>   SAN MARTIN DE SAN JUAN<br/>
-<strong>42:</strong>   SAN MARTIN DE TUCUMAN<br/>
+<strong>44:</strong>   TALLERES DE ESCALADA<br/>
+<strong>43:</strong>   SAN MARTIN DE SJ<br/>
+<strong>42:</strong>   SAN MARTIN TUCUMAN<br/>
 <strong>41:</strong>   SPORTIVO BARRACAS<br/>
 <strong>40:</strong>   ATLÉTICO TUCUMÁN<br/>
-<strong>39:</strong>   DEFENSORES DE BELGRANO<br/>
+<strong>39:</strong>   DEF. DE BELGRANO<br/>
 <strong>38:</strong>   ARGENTINO DE QUILMES <br/>
 <strong>37:</strong>   RACING DE CÓRDOBA<br/>
-<strong>36:</strong>   ESTUDIANTES DE BUENOS AIRES<br/>
+<strong>36:</strong>   ESTUDIANTES DE BA<br/>
 <strong>35:</strong>   TEMPERLEY <br/>
 <strong>34:</strong>   OLIMPO<br/>
 <strong>33:</strong>   NUEVA CHICAGO<br/>
-<strong>32:</strong>   GIMNASIA Y ESGRIMA DE JUJUY<br/>
+<strong>32:</strong>   GIMNASIA DE JUJUY<br/>
 <strong>31:</strong>   INSTITUTO DE CÓRDOBA<br/>
 <strong>30:</strong>   ALMAGRO<br/>
 <strong>29:</strong>   DEPORTIVO ESPAÑOL<br/>
@@ -65,8 +65,8 @@ export default function Listagralclubes (){
 <strong>09:</strong>   ROSARIO CENTRAL<br/>
 <strong>08:</strong>   NEWELLS OLD BOYS<br/>
 <strong>07:</strong>   VELEZ SARFIELD <br/>
-<strong>06:</strong>   ESTUDIANTES DE LA PLATA<br/>
-<strong>05:</strong>   SAN LORENZO DE ALMAGRO<br/>
+<strong>06:</strong>   ESTUDIANTES DE LP<br/>
+<strong>05:</strong>   SAN LORENZO <br/>
 <strong>04:</strong>   RACING CLUB<br/>
 <strong>03:</strong>   INDEPENDIENTE<br/>
 <strong>02:</strong>   RIVER PLATE<br/>

@@ -1,5 +1,6 @@
 import { Link} from "react-router-dom"
 import "../index.css"
+import equipo from "../assets/img/equipoargentina.jpg";
 export default function Equipos(){
     const h1 = {
         color: 'white',
@@ -21,7 +22,7 @@ export default function Equipos(){
       }
 
     return(
-<div className="equipo">
+<div className="equipo" style={{ backgroundImage: ` linear-gradient(rgba(5, 7, 12, 0.75), rgba(5,7,12,0.75)),url(${equipo})` }}>
         <h1 style={h1}>EQUIPO DEL AÑO</h1>
         <div style={divStyle} >
 

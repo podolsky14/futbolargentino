@@ -10,28 +10,17 @@
 
 main{
   color:white;
-  background-color: rgb(0, 19, 71);
+  background-color: #000d33;
   max-width: 100% !important;
     overflow-x: hidden !important;
     height: 100%;
 }
 
-@media (max-width: 756px) {
-  main{
-    display: flex;
-    flex-direction: column;
-  }
-}
-
 .home{
-  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5,7,12,0.75)),url(./assets/img/futbolargentino.jpg)  no-repeat ;
   background-size: 100% 100%;
   height: 500px;
     }
   
-
-
-
 
 .bienvenidos{
  display: flex;
@@ -41,24 +30,6 @@ padding-top: 15px;
 width: 100%;
 
   }
-
-  @media (max-width: 885px) {
-    .bienvenidos {
-      width: 100%;
-      font-size: 25px
-    }
-  }
-
-  @media (max-width: 600px) {
-    .bienvenidos {
-      width: 100%;
-      font-size: 15px
-    }
-  }
-
-
-
-
 
 
 .centrarImagenEnModal{
@@ -71,30 +42,23 @@ width: 100%;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(179, 192, 207);
+  background-color:  #cce6ff;
   width: 100%;
   padding-left: 30px;
   padding-right: 30px;
+  padding-bottom: 5px;
+  padding-top: 5px;
   margin: 0;
 }
 
 
-@media (max-width: 555px) {
-  .titulo nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}}
-
-
-
-
-
 .layoutfooter{
-  background-color: goldenrod;
+  background-color:  #cce6ff;
   display: flex;
   justify-content: space-between;
   padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 
 }
 
@@ -106,24 +70,11 @@ width: 100%;
 
   }
 
-  @media (max-width: 450px) {
-    .layoutfooter {
-  background-color: goldenrod;
-  display: flex;
-  justify-content: space-evenly;
-  padding-left: 30px;
-
-
-  }
-
- 
-
-}
-
 .contacto{
 display: flex;
 justify-content: center;
 color: white;
+background-color:#000d33
 }
 
 
@@ -134,20 +85,12 @@ color: white;
 overflow-x:hidden;
   }
 
-  
-
-
-
-
-
-
-
 .formularioContacto{
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(0, 19, 71);
+  background-color: "#000d33"
 }
 
 
@@ -169,22 +112,22 @@ overflow-x:hidden;
 
 
 .jugadores{
-  background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5,7,12,0.75)),url(./assets/img/maradona.jpg) ;
   height: 850px;
   background-size: 100% 100%;
   display: flex;
   flex-direction: column;
   width:100%;
-  
 }
 
 
-@media (max-width: 555px) {
-  .posiciones {
-    display: flex;
-    flex-direction: column;
-
+.layoutjugadores{
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  height: 800px
 }
+
 
 .posiciones ul br {
   display: flex;
@@ -199,31 +142,37 @@ overflow-x:hidden;
   align-self: center;
 }
 
-}
-
-
-
 
 
 .equipo{
-  background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5,7,12,0.75)),url(./assets/img/equipoargentina.jpg)  ;
   width: 100%;
   height: 850px;
   background-size: 100% 100%;
 }
 
 .dts{
-  background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5,7,12,0.75)),url(./assets/img/dt.jpg)  ;
   width: 100%;
   height: 850px;
   background-size: 100% 100%;
 }
 
+.layoutdts{
+  display: flex;
+  justify-content: space-around;
+  height: 800px;
+}
+
 .clubes{
-  background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5,7,12,0.75)),url(./assets/img/clubes.jpg) ;
   width: 100%;
   height: 850px;
   background-size: 100% 100%;
+}
+
+.layoutclubes{
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  height: 800px;
 }
 
 
@@ -236,6 +185,90 @@ overflow-x:hidden;
   display: flex;
   justify-content: center;
 }
+
+
+
+
+
+
+/*  MEDIA QUERIES   */
+
+@media (max-width: 756px) {
+  main{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 555px) {
+  .titulo nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}}
+
+
+@media (max-width: 885px) {
+  .bienvenidos {
+    width: 100%;
+    font-size: 25px
+  }
+}
+
+@media (max-width: 600px) {
+  .bienvenidos {
+    width: 100%;
+    font-size: 15px
+  }
+}
+
+@media (max-width: 555px) {
+  .posiciones {
+    display: flex;
+    flex-direction: column;
+
+}}
+
+
+@media (max-width: 450px) {
+  .layoutfooter {
+background-color: goldenrod;
+display: flex;
+justify-content: space-evenly;
+padding-left: 30px;
+}
+}
+
+
+@media (max-width: 525px) {
+  .layoutclubes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 500px;
+
+}}
+
+@media (max-width: 525px) {
+  .layoutdts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 500px;
+
+}}
+
+
+@media (max-width: 589px) {
+  .layoutjugadores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 500px;
+    gap: 30px
+
+}}
+
 
 
 @media (max-width: 555px) {
@@ -279,7 +312,5 @@ overflow-x:hidden;
 }
 .dts50mejoresletra {
   font-size: 16px;
-
 }
-
 }

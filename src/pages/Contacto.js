@@ -14,6 +14,9 @@ const divStyle = {
     padding: "20px",
   };
 
+  const enviar = {
+    color: "#668cff",
+  };
 
   useEffect(() => {
     if(visible)
@@ -42,8 +45,8 @@ setborrarform(true)
 <strong>Email</strong>
 <input type="email" id="email" name="email" onChange={handleChange} required value= {form.email || ""} /><br/>
 <strong>Mensaje</strong>
-<textarea id="mensaje" name="mensaje" id="mensaje" cols="46" rows="10" className='textarea'  onChange={handleChange} required  value= {form.mensaje || ""} /> <br/>
-<input type="submit" id="submit" name="submit"/>
+<textarea id="mensaje" name="mensaje" cols="46" rows="10" className='textarea'  onChange={handleChange} required  value= {form.mensaje || ""} /> <br/>
+<input type="submit" id="submit" name="submit" style={enviar}/>
        </form>
        
        }

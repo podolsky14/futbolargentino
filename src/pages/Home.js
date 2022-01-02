@@ -1,13 +1,14 @@
 import slide1 from "../assets/img/slide1.jpg";
 import slide2 from "../assets/img/slide2.jpg";
 import slide3 from "../assets/img/slide3.jpg";
-import "../index.css"
+import "../index.css";
+import futbol from "../assets/img/futbolargentino.jpg";
 export default function Home (){
 
 
     return(
         <>
-        <div className="home">
+     <div className="home" style={{ backgroundImage: ` linear-gradient(rgba(5, 7, 12, 0.75), rgba(5,7,12,0.75)),url(${futbol})` }}>
       <h1 className="bienvenidos">Bienvenidos al Salón de la Fama del Fútbol Argentino</h1>
         
         <br/>

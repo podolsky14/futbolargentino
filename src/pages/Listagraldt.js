@@ -20,7 +20,7 @@ export default function Listagraldt (){
 <strong>50:</strong>   NÉSTOR ROSSI<br/>
 <strong>49:</strong>   PEDRO TROGLIO<br/>
 <strong>48:</strong>   JOSÉ BARREIRO <br/>
-<strong>47:</strong>   GUILLERMO BARROS SCHELOTTO<br/>
+<strong>47:</strong>   GUILLERMO B. SCHELOTTO<br/>
 <strong>46:</strong>   GUSTAVO ALFARO<br/>
 <strong>45:</strong>   JUAN JOSE PIZZUTI <br/>
 <strong>44:</strong>   JULIO CESAR FALCIONI<br/>

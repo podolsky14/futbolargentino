@@ -1,3 +1,4 @@
+
 export default function Arqueros (){
 
 
@@ -55,7 +56,6 @@ export default function Arqueros (){
 <ul><strong>03:</strong> Antonio Roma</ul>
 <ul><strong>02:</strong> Amadeo Carrizo</ul>   
 <ul><strong>01:</strong> Ubaldo Fillol</ul>  
-
 
    </>
     )
